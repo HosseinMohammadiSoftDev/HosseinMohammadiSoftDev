@@ -1,226 +1,134 @@
-`````markdown
-
-
+`````text
                   -`                                      $ cat about.md
                  .o+`                                     ─────────────────────────
-                `ooo/`
-               `+oooo:`                                   name: Hossein Mohammadi
-              `+oooooo:`                                  location: Iran-Qom
+                `ooo/                                     
+               `+oooo:                                    name: Hossein Mohammadi
+              `+oooooo:                                   location: Iran-Qom
               -+oooooo+:                                  
             `/:-:++oooo+:                                 interests:
-           `/++++/+++++++:                                  - Linux
-          `/++++++++++++++:                                 - Open Source
-         `/+++ooooooooooooo/`                               - Backend
-        ./ooosssso++osssssso+`                              - DevOps
-       .oossssso-````/osssss+                              
+           `/++++/+++++++:                                   - Linux
+          `/++++++++++++++:                                  - Open Source
+         `/+++ooooooooooooo/`                                - Backend
+        ./ooosssso++osssssso+`                                - DevOps
+       .oossssso-````/ossssss+`
       -osssssso.      :ssssssso.                           currently:
-     :ssssssss:        osssso+++                           - Laravel
-    /sssssssss/        +ssssooo/-                          - FastAPI
-  `/ssssssssss/        -:/+osssso+-                        - Docker
+     :osssssss/        osssso+++.                            - Laravel
+    /ossssssss/        +ssssooo/-                            - FastAPI
+  `/ossssso+/:-        -:/+osssso+-
  `+sso+:-`                 `.-/+oso:
 `++:.                           `-/+/
 .`                                 `
-`````
 
-```text
-HosseinMohammadiSoftDev@github
-──────────────────────────────────────────────────────────────────────────────
+HosseinMohammadiSoftDev@github                          $ whoami
+────────────────────────────────────────                ─────────────────────────
 
-OS           : Arch Linux
-Shell        : zsh
+OS           : Arch Linux                              Software Engineer
+Shell        : zsh                                     Computer Science Student
 Editor       : Neovim
-Terminal     : Kitty
-WM           : Hyprland
-
-Role         : Software Engineer, Computer Science Student
+Terminal     : Kitty                                   Focus:
+WM           : Hyprland                                  → Linux
+                                                         → Backend Development
+Role         : Software Engineer,                        → DevOps
+               Computer Science Student                  → Open Source
 Focus        : Linux & Backend Development
-Learning     : Operating Systems, Kernel Internals
-```
+Learning     : Operating Systems, Kernel Internals      Learning:
+                                                           → Laravel
+                                                           → FastAPI
+                                                           → Docker
 
-</div>
 
----
+──────────────────────────────────────────────────────────────────────────────────
 
-## ```bash
+$ ls skills/                                             $ systemctl status github-profile
+────────────────────────────                             ──────────────────────────
 
-$ ls skills/
+skills                                                     ● github-profile.service
+├── languages                                                  Loaded: loaded
+│   ├── Python                                                 Active: active (running)
+│   ├── Go
+│   ├── PHP                                                     → Building useful things
+│   └── JS                                                      → Learning new technologies
+│                                                               → Contributing to open source
+├── backend
+│   ├── FastAPI
+│   ├── Laravel
+│   ├── Node JS
+│   └── PostgreSQL
 
-````
+├── devops
+│   ├── Docker
+│   ├── Linux
+│   ├── Git
+│   └── CI/CD
 
-<p align="center">
+└── tools
+    ├── Neovim
+    ├── Tmux
+    ├── Bash
+    └── Kitty
 
-<img src="https://skillicons.dev/icons?i=python,go,php,js" />
 
-<br>
+──────────────────────────────────────────────────────────────────────────────────
 
-<img src="https://skillicons.dev/icons?i=fastapi,laravel,nodejs,postgres" />
+$ git status                                             $ cat learning.log
+────────────────────────────                             ──────────────────────────
 
-<br>
+On branch main                                            [+] Laravel
+                                                          [+] FastAPI
+Your branch is up to date.                                [+] Docker
+                                                          [+] Linux
+Changes:                                                  [+] Git
+→ Learning new technologies                               [+] Design Patterns
+→ Building backend projects                               [+] Operating Systems
+→ Exploring Linux internals                               [ ] Kubernetes
+→ Improving DevOps skills                                 [ ] System Programming
+                                                          [ ] Distributed Systems
 
-<img src="https://skillicons.dev/icons?i=docker,linux,git,github" />
+nothing to commit.
+working tree clean.
 
-<br>
 
-<img src="https://skillicons.dev/icons?i=neovim,bash,kitty" />
+──────────────────────────────────────────────────────────────────────────────────
 
-</p>
+$ journalctl --user -n 5                                $ uptime
+────────────────────────────                             ──────────────────────────
 
----
-
-## ```bash
-$ systemctl status github-profile
-````
-
-```text
-● github-profile.service
-    Loaded: loaded
-    Active: active (running)
-
-    → Building useful things
-    → Learning new technologies
-    → Exploring systems
-    → Contributing to open source
-```
-
----
-
-## ```bash
-
-$ git status
-
-````
-
-```text
-On branch main
-
-Changes not staged for commit:
-
-    modified:
-        backend
-        linux
-        docker
-        knowledge
-
-Untracked files:
-
-    new-project/
-    new-idea/
-
-nothing to commit, working tree learning
-````
-
----
-
-## ```bash
-
-$ cat learning.log
-
-````
-
-```text
-[INFO] Linux internals
-[INFO] Operating systems
-[INFO] Backend architecture
-[INFO] Docker & containers
-[INFO] Git & GitHub
-[INFO] Design patterns
-[INFO] Clean architecture
-[INFO] Distributed systems
-````
-
----
-
-## ```bash
-
-$ github stats
-
-````
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=HosseinMohammadiSoftDev&show_icons=true&theme=transparent&hide_border=true&include_all_commits=true"
-    height="180"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=HosseinMohammadiSoftDev&layout=compact&theme=transparent&hide_border=true&langs_count=8"
-    height="180"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://streak-stats.demolab.com?user=HosseinMohammadiSoftDev&theme=transparent&hide_border=true"
-    width="500"
-  />
-</p>
-
----
-
-## ```bash
-$ git activity --graph
-````
-
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=HosseinMohammadiSoftDev&theme=github-dark&hide_border=true&area=true"
-    width="100%"
-  />
-</p>
-
----
-
-## ```bash
-
-$ journalctl --user -n 5
-
-````
-
-```text
-[INFO] Open source contribution detected.
-[INFO] New project initialized.
-[INFO] Docker container started.
-[INFO] Documentation updated.
-[INFO] New technology added to stack.
+[INFO] Open source contribution detected.               Learning      : Always
+[INFO] New project initialized.                         Building      : Always
+[INFO] Documentation updated.                           Debugging     : Sometimes
+[INFO] Coffee level sufficient.                         Coffee        : Required
 [ OK ] System operational.
-````
 
----
 
-## ```bash
+──────────────────────────────────────────────────────────────────────────────────
 
-$ uptime
+$ echo "Let's connect"                                  $ cat profile
+────────────────────────────                             ──────────────────────────
 
-````
-
-```text
-learning       : continuous
-projects       : active
-coffee         : sufficient
-motivation     : 100%
-system         : operational
-````
-
----
-
-## ```bash
-
-$ echo "Let's connect"
-
-````
-
-```text
-GitHub    : https://github.com/HosseinMohammadiSoftDev
-LinkedIn  : https://www.linkedin.com/in/hossein-mohammadi-279177389
-Email     : 1386.hossein.mohammadi@gmail.com
+GitHub    : github.com/HosseinMohammadiSoftDev          Role:
+LinkedIn  : linkedin.com/in/hossein-mohammadi-279177389   Software Engineer
+Email     : 1386.hossein.mohammadi@gmail.com              Computer Science Student
 Website   : no website
-````
+                                                          Focus:
+                                                          Linux
+                                                          Backend Development
+                                                          DevOps
+                                                          Open Source
 
-```text
-──────────────────────────────────────────────────────────────────────────────
+
+──────────────────────────────────────────────────────────────────────────────────
+
+                              Stats
+
+       GitHub Stats                         Top Languages
+
+       [ GitHub Stats ]                     [ Top Languages ]
+
+
+                              [ GitHub Streak ]
+
+
+──────────────────────────────────────────────────────────────────────────────────
+
 [ OK ] README loaded successfully.
-```
-
-```
-
-این را کامل **Copy → داخل `README.md` → Paste** کن.
-```
+`````
