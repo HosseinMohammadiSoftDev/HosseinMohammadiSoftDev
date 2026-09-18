@@ -115,19 +115,6 @@ Website   : no website
                                                           DevOps
                                                           Open Source
 
-
-──────────────────────────────────────────────────────────────────────────────────
-
-                              Stats
-
-       GitHub Stats                         Top Languages
-
-       [ GitHub Stats ]                     [ Top Languages ]
-
-
-                              [ GitHub Streak ]
-
-
 ──────────────────────────────────────────────────────────────────────────────────
 
 [ OK ] README loaded successfully.
